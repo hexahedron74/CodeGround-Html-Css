@@ -1,0 +1,56 @@
+@import url(https://fonts.google)
+.{
+	font-family: 'Century Gothic';
+}
+a {
+	color:#000000;
+	text-decoration: none;
+}
+a:hover {
+	color:#bbbbbb;
+	text-decoration:none;
+	cursor: pointer;
+}
+.navbar-default {
+	background-color: rgb(43, 43, 43);
+	border-color: rgb(43, 43, 43);
+}
+.navbar-brand {
+	font-size: 30px;
+
+}
+.navbar-sizeandcolor{
+	font-size: 20px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:white;
+	background-color: rgb(31, 31, 31);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color:white;
+	background-color: rgb(31, 31, 31);
+}
+.navbar-default .navbar-nav > li > a {
+	color:white;
+}
+.font_underline {
+	color: #4287f5;
+}
+.body {
+	background-color: #4b6082;
+}
+.photo2 {
+    width: 200px; height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
